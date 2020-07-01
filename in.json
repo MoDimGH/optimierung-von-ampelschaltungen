@@ -1,0 +1,211 @@
+{
+    "Ampeln": [
+        {
+            "name": "A",
+            "ids": [17]
+        },
+        {
+            "name": "B",
+            "ids": [18]
+        },
+        {
+            "name": "C",
+            "ids": [19]
+        },
+        {
+            "name": "D",
+            "ids": [20]
+        },
+        {
+            "name": "E",
+            "ids": [21]
+        },
+        {
+            "name": "F",
+            "ids": [22]
+        },
+        {
+            "name": "G",
+            "ids": [23]
+        },
+        {
+            "name": "H",
+            "ids": [24]
+        },
+        {
+            "name": "J",
+            "ids": [25]
+        },
+        {
+            "name": "K",
+            "ids": [26]
+        }
+    ],
+    "Sensoren": [
+        {
+            "name": "a",
+            "ids": [1,2,3],
+            "trafficlight": "A",
+            "memb_func": {
+                "sk": [null,null,4,8],
+                "k": [2,6,10,14],
+                "m": [8,12,16,20],
+                "g": [14,18,null,null]
+            },
+            "maxqueue": 24
+        },
+        {
+            "name": "b",
+            "ids": [4,5,6],
+            "trafficlight": "B",
+            "memb_func": {
+                "sk": [null,null,3,5],
+                "k": [3,5,9,11],
+                "m": [9,11,15,17],
+                "g": [15,17,null,null]
+            },
+            "maxqueue": 24
+        },
+        {
+            "name": "c",
+            "ids": [7,8,9],
+            "trafficlight": "C",
+            "memb_func": {
+                "sk": [null,null,4,8],
+                "k": [2,6,10,14],
+                "m": [8,12,16,20],
+                "g": [14,18,null,null]
+            },
+            "maxqueue": 24
+        },
+        {
+            "name": "d",
+            "ids": [10,11,12],
+            "trafficlight": "D",
+            "memb_func": {
+                "sk": [null,null,3,5],
+                "k": [3,5,9,11],
+                "m": [9,11,15,17],
+                "g": [15,17,null,null]
+            },
+            "maxqueue": 24
+        },
+        {
+            "name": "e",
+            "ids": [13]
+        },
+        {
+            "name": "f",
+            "ids": [14]
+        },
+        {
+            "name": "g",
+            "ids": [15]
+        },
+        {
+            "name": "h",
+            "ids": [16]
+        }
+    ],
+    "Grünsignal": [
+        {
+            "name": "i",
+            "id_": 27,
+            "maxtime": 100,
+            "memb_func": {
+                "sw": [null,null,15,30],
+                "w": [20,30,45,55],
+                "m": [45,55,75,85],
+                "n": [75,85,null,null]
+            }
+        }
+    ],
+    "Einsatzwagen": [
+        {
+            "id_": 28
+        }
+    ],
+    "Phasen": [
+        {
+            "events": [
+                {
+                    "type_": "tltoggle",
+                    "id_": 1,
+                    "relative": null,
+                    "trafficlights": ["A","C"],
+                    "triggertime": 0,
+                    "duration": 20,
+                    "extended": true
+                },
+                {
+                    "type_": "tltoggle",
+                    "id_": 2,
+                    "relative": null,
+                    "trafficlights": ["F","G", "J", "K"],
+                    "triggertime": 0,
+                    "duration": 25,
+                    "extended": true
+                },
+                {
+                    "type_": "exit",
+                    "relative": 2,
+                    "triggertime": 5
+                }
+            ],
+            "rules": "phase1rules.csv",
+            "memb_func": {
+                "z": [null,null,3,7],
+                "k": [2,5,8,11],
+                "m": [6,9,12,15],
+                "g": [10,13,null,null],
+                "scale": 20
+            },
+            "safetysens": ["e", "f"]
+        },
+        {
+            "events": [
+                {
+                    "type_": "tltoggle",
+                    "id_": 1,
+                    "relative": null,
+                    "trafficlights": ["B","D"],
+                    "triggertime": 0,
+                    "duration": 15,
+                    "extended": true
+                },
+                {
+                    "type_": "tltoggle",
+                    "id_": 2,
+                    "relative": null,
+                    "trafficlights": ["E","H"],
+                    "triggertime": 0,
+                    "duration": 20,
+                    "extended": true
+                },
+                {
+                    "type_": "tltoggle",
+                    "id_": 2,
+                    "relative": 2,
+                    "trafficlights": ["F","G", "J", "K"],
+                    "triggertime": 2,
+                    "duration": 7,
+                    "extended": false
+                },
+                {
+                    "type_": "exit",
+                    "relative": 2,
+                    "triggertime": 10
+                }
+            ],
+            "rules": "phase2rules.csv",
+            "memb_func": {
+                "z": [null,null,2,5],
+                "k": [1,3,6,9],
+                "m": [6,8,10,12],
+                "g": [10,13,null,null],
+                "scale": 16
+            },
+            "safetysens": ["g", "h"]
+        }
+    ]
+}

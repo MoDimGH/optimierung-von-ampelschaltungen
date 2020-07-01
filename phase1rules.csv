@@ -1,0 +1,160 @@
+IF a IS sk AND b IS sk THEN xt IS z
+IF a IS sk AND b IS k THEN xt IS z
+IF a IS sk AND b IS m THEN xt IS z
+IF a IS sk AND b IS g THEN xt IS z
+IF a IS k AND b IS sk THEN xt IS z
+IF a IS k AND b IS k THEN xt IS z
+IF a IS k AND b IS m THEN xt IS z
+IF a IS k AND b IS g THEN xt IS z
+IF a IS m AND b IS sk THEN xt IS k
+IF a IS m AND b IS k THEN xt IS k
+IF a IS m AND b IS m THEN xt IS z
+IF a IS m AND b IS g THEN xt IS z
+IF a IS g AND b IS sk THEN xt IS m
+IF a IS g AND b IS k THEN xt IS m
+IF a IS g AND b IS m THEN xt IS k
+IF a IS g AND b IS g THEN xt IS k
+IF a IS sk AND d IS sk THEN xt IS z
+IF a IS sk AND d IS k THEN xt IS z
+IF a IS sk AND d IS m THEN xt IS z
+IF a IS sk AND d IS g THEN xt IS z
+IF a IS k AND d IS sk THEN xt IS z
+IF a IS k AND d IS k THEN xt IS z
+IF a IS k AND d IS m THEN xt IS z
+IF a IS k AND d IS g THEN xt IS z
+IF a IS m AND d IS sk THEN xt IS k
+IF a IS m AND d IS k THEN xt IS k
+IF a IS m AND d IS m THEN xt IS z
+IF a IS m AND d IS g THEN xt IS z
+IF a IS g AND d IS sk THEN xt IS m
+IF a IS g AND d IS k THEN xt IS m
+IF a IS g AND d IS m THEN xt IS k
+IF a IS g AND d IS g THEN xt IS k
+IF i IS sw AND c IS sk AND b IS sk THEN xt IS z
+IF i IS sw AND c IS sk AND b IS k THEN xt IS z
+IF i IS sw AND c IS sk AND b IS m THEN xt IS z
+IF i IS sw AND c IS sk AND b IS g THEN xt IS z
+IF i IS sw AND c IS k AND b IS sk THEN xt IS z
+IF i IS sw AND c IS k AND b IS k THEN xt IS z
+IF i IS sw AND c IS k AND b IS m THEN xt IS z
+IF i IS sw AND c IS k AND b IS g THEN xt IS z
+IF i IS sw AND c IS m AND b IS sk THEN xt IS k
+IF i IS sw AND c IS m AND b IS k THEN xt IS k
+IF i IS sw AND c IS m AND b IS m THEN xt IS z
+IF i IS sw AND c IS m AND b IS g THEN xt IS z
+IF i IS sw AND c IS g AND b IS sk THEN xt IS m
+IF i IS sw AND c IS g AND b IS k THEN xt IS m
+IF i IS sw AND c IS g AND b IS m THEN xt IS k
+IF i IS sw AND c IS g AND b IS g THEN xt IS k
+IF i IS w AND c IS sk AND b IS sk THEN xt IS z
+IF i IS w AND c IS sk AND b IS k THEN xt IS z
+IF i IS w AND c IS sk AND b IS m THEN xt IS z
+IF i IS w AND c IS sk AND b IS g THEN xt IS z
+IF i IS w AND c IS k AND b IS sk THEN xt IS z
+IF i IS w AND c IS k AND b IS k THEN xt IS z
+IF i IS w AND c IS k AND b IS m THEN xt IS z
+IF i IS w AND c IS k AND b IS g THEN xt IS z
+IF i IS w AND c IS m AND b IS sk THEN xt IS k
+IF i IS w AND c IS m AND b IS k THEN xt IS k
+IF i IS w AND c IS m AND b IS m THEN xt IS z
+IF i IS w AND c IS m AND b IS g THEN xt IS z
+IF i IS w AND c IS g AND b IS sk THEN xt IS m
+IF i IS w AND c IS g AND b IS k THEN xt IS m
+IF i IS w AND c IS g AND b IS m THEN xt IS k
+IF i IS w AND c IS g AND b IS g THEN xt IS k
+IF i IS m AND c IS sk AND b IS sk THEN xt IS z
+IF i IS m AND c IS sk AND b IS k THEN xt IS z
+IF i IS m AND c IS sk AND b IS m THEN xt IS z
+IF i IS m AND c IS sk AND b IS g THEN xt IS z
+IF i IS m AND c IS k AND b IS sk THEN xt IS z
+IF i IS m AND c IS k AND b IS k THEN xt IS z
+IF i IS m AND c IS k AND b IS m THEN xt IS z
+IF i IS m AND c IS k AND b IS g THEN xt IS z
+IF i IS m AND c IS m AND b IS sk THEN xt IS m
+IF i IS m AND c IS m AND b IS k THEN xt IS m
+IF i IS m AND c IS m AND b IS m THEN xt IS z
+IF i IS m AND c IS m AND b IS g THEN xt IS z
+IF i IS m AND c IS g AND b IS sk THEN xt IS g
+IF i IS m AND c IS g AND b IS k THEN xt IS g
+IF i IS m AND c IS g AND b IS m THEN xt IS m
+IF i IS m AND c IS g AND b IS g THEN xt IS z
+IF i IS n AND c IS sk AND b IS sk THEN xt IS z
+IF i IS n AND c IS sk AND b IS k THEN xt IS z
+IF i IS n AND c IS sk AND b IS m THEN xt IS z
+IF i IS n AND c IS sk AND b IS g THEN xt IS z
+IF i IS n AND c IS k AND b IS sk THEN xt IS k
+IF i IS n AND c IS k AND b IS k THEN xt IS k
+IF i IS n AND c IS k AND b IS m THEN xt IS z
+IF i IS n AND c IS k AND b IS g THEN xt IS z
+IF i IS n AND c IS m AND b IS sk THEN xt IS m
+IF i IS n AND c IS m AND b IS k THEN xt IS m
+IF i IS n AND c IS m AND b IS m THEN xt IS k
+IF i IS n AND c IS m AND b IS g THEN xt IS z
+IF i IS n AND c IS g AND b IS sk THEN xt IS g
+IF i IS n AND c IS g AND b IS k THEN xt IS g
+IF i IS n AND c IS g AND b IS m THEN xt IS m
+IF i IS n AND c IS g AND b IS g THEN xt IS k
+IF i IS sw AND c IS sk AND d IS sk THEN xt IS z
+IF i IS sw AND c IS sk AND d IS k THEN xt IS z
+IF i IS sw AND c IS sk AND d IS m THEN xt IS z
+IF i IS sw AND c IS sk AND d IS g THEN xt IS z
+IF i IS sw AND c IS k AND d IS sk THEN xt IS z
+IF i IS sw AND c IS k AND d IS k THEN xt IS z
+IF i IS sw AND c IS k AND d IS m THEN xt IS z
+IF i IS sw AND c IS k AND d IS g THEN xt IS z
+IF i IS sw AND c IS m AND d IS sk THEN xt IS k
+IF i IS sw AND c IS m AND d IS k THEN xt IS k
+IF i IS sw AND c IS m AND d IS m THEN xt IS z
+IF i IS sw AND c IS m AND d IS g THEN xt IS z
+IF i IS sw AND c IS g AND d IS sk THEN xt IS m
+IF i IS sw AND c IS g AND d IS k THEN xt IS m
+IF i IS sw AND c IS g AND d IS m THEN xt IS k
+IF i IS sw AND c IS g AND d IS g THEN xt IS k
+IF i IS w AND c IS sk AND d IS sk THEN xt IS z
+IF i IS w AND c IS sk AND d IS k THEN xt IS z
+IF i IS w AND c IS sk AND d IS m THEN xt IS z
+IF i IS w AND c IS sk AND d IS g THEN xt IS z
+IF i IS w AND c IS k AND d IS sk THEN xt IS z
+IF i IS w AND c IS k AND d IS k THEN xt IS z
+IF i IS w AND c IS k AND d IS m THEN xt IS z
+IF i IS w AND c IS k AND d IS g THEN xt IS z
+IF i IS w AND c IS m AND d IS sk THEN xt IS k
+IF i IS w AND c IS m AND d IS k THEN xt IS k
+IF i IS w AND c IS m AND d IS m THEN xt IS z
+IF i IS w AND c IS m AND d IS g THEN xt IS z
+IF i IS w AND c IS g AND d IS sk THEN xt IS m
+IF i IS w AND c IS g AND d IS k THEN xt IS m
+IF i IS w AND c IS g AND d IS m THEN xt IS k
+IF i IS w AND c IS g AND d IS g THEN xt IS k
+IF i IS m AND c IS sk AND d IS sk THEN xt IS z
+IF i IS m AND c IS sk AND d IS k THEN xt IS z
+IF i IS m AND c IS sk AND d IS m THEN xt IS z
+IF i IS m AND c IS sk AND d IS g THEN xt IS z
+IF i IS m AND c IS k AND d IS sk THEN xt IS z
+IF i IS m AND c IS k AND d IS k THEN xt IS z
+IF i IS m AND c IS k AND d IS m THEN xt IS z
+IF i IS m AND c IS k AND d IS g THEN xt IS z
+IF i IS m AND c IS m AND d IS sk THEN xt IS m
+IF i IS m AND c IS m AND d IS k THEN xt IS m
+IF i IS m AND c IS m AND d IS m THEN xt IS z
+IF i IS m AND c IS m AND d IS g THEN xt IS z
+IF i IS m AND c IS g AND d IS sk THEN xt IS g
+IF i IS m AND c IS g AND d IS k THEN xt IS g
+IF i IS m AND c IS g AND d IS m THEN xt IS m
+IF i IS m AND c IS g AND d IS g THEN xt IS z
+IF i IS n AND c IS sk AND d IS sk THEN xt IS z
+IF i IS n AND c IS sk AND d IS k THEN xt IS z
+IF i IS n AND c IS sk AND d IS m THEN xt IS z
+IF i IS n AND c IS sk AND d IS g THEN xt IS z
+IF i IS n AND c IS k AND d IS sk THEN xt IS k
+IF i IS n AND c IS k AND d IS k THEN xt IS k
+IF i IS n AND c IS k AND d IS m THEN xt IS z
+IF i IS n AND c IS k AND d IS g THEN xt IS z
+IF i IS n AND c IS m AND d IS sk THEN xt IS m
+IF i IS n AND c IS m AND d IS k THEN xt IS m
+IF i IS n AND c IS m AND d IS m THEN xt IS k
+IF i IS n AND c IS m AND d IS g THEN xt IS z
+IF i IS n AND c IS g AND d IS sk THEN xt IS g
+IF i IS n AND c IS g AND d IS k THEN xt IS g
+IF i IS n AND c IS g AND d IS m THEN xt IS m
+IF i IS n AND c IS g AND d IS g THEN xt IS k
