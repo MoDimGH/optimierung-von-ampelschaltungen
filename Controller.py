@@ -257,7 +257,7 @@ class Phase:
             for event in self.Event.active_list:
                 if time.time() > event.trigger_time:
                     if event.dict["type_"] == "tltoggle": 
-                        GPIO.OUT([id for name in event.dict["trafficlight"] for id in Trafficlight.get_dict()[name]], event.state)
+                        # GPIO.OUT([id for name in event.dict["trafficlight"] for id in Trafficlight.get_dict()[name]], event.state)
                         for tl in Trafficlight.list_:
                             if tl.name in event.dict["trafficlights"]:
                                 tl.state = event.state
